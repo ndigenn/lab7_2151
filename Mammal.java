@@ -2,7 +2,7 @@
 /**
  * @invariant legCount must be >= 0
  *
- * @corresponds common_name = commonName AND  genus_name = genusName AND species_name = species AND leg_count = legCount
+ * @corresponds common_name = commonName AND  genus_name = genus AND species_name = species AND leg_count = legCount
  *
  */
 public class Mammal implements IMammal{
