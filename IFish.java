@@ -1,7 +1,5 @@
 /**
- *
- *
- * @defines common_name: "the common name of the fish" AND genus_name: "the genus of the fish" AND species_name: "the
+ *@defines common_name: "the common name of the fish" AND genus_name: "the genus of the fish" AND species_name: "the
  * species of the fish" AND fin_count: "the number of fins the fish has"
  *
  * @constraints fin_num >= 0
