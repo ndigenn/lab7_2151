@@ -3,7 +3,7 @@
  *
  * @invariant finCount > 0
  *
- * @corresponds
+ * @corresponds common_name = commonName AND genus_name = genus AND species_name = species AND fin_count = finCount
  *
  */
 public class Fish implements IFish {
