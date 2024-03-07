@@ -20,6 +20,7 @@ public class Fish implements IFish {
 	 * @param aGenus -  the genus of the fish, a String
      * @param aSpecies -  the species of the fish , a String
      * @param aFinCount -  the leg count of a fish, an int
+     * @param aFinCount -  the leg count of an fish, an int
 	 *
 	 * @pre aCommonName != null AND aGenus != null AND aSpecies != null AND aLegCount >= 0
 	 *
