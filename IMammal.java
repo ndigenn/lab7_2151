@@ -1,9 +1,9 @@
 /**
- * @defines
+ * @defines common_name: Z AND genus_name: Z AND species_name: Z AND leg_count = Z
  *
- * @constraints
+ * @constraints leg_count >= 0
  *
- * @initialization_ensures
+ * @initialization_ensures The common_name, genus_name, species_name, and legCount are all set AND leg_count >= 0
  */
 public interface IMammal extends IAnimal
 {

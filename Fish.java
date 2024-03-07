@@ -1,7 +1,7 @@
 
 /**
  *
- * @invariant finCount > 0
+ * @invariant finCount >= 0
  *
  * @corresponds common_name = commonName AND genus_name = genus AND species_name = species AND fin_count = finCount
  *
