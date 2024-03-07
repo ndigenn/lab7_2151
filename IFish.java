@@ -1,11 +1,11 @@
 /**
  *
  *
- * @defines
+ * @defines common_name: Z AND genus_name: Z AND species_name: Z AND fin_num: Z
  *
- * @constraints
+ * @constraints fin_num >= 0
  *
- * @initialization_ensures
+ * @initialization_ensures The common_name, genus_name, species_name, and fin_num are all set AND fin_num >= 0
  */
 public interface IFish extends IAnimal
 {

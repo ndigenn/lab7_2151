@@ -3,7 +3,7 @@
  *
  * @constraints None
  *
- * @initialization_ensures The commonName, genus_name, species_name, and legCount are all set
+ * @initialization_ensures The common_name, genus_name, species_name, and legCount are all set
  */
 public interface IAnimal
 {
