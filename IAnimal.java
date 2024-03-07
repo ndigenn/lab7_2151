@@ -1,5 +1,5 @@
 /**
- * @defines common_name: Z AND genus_name: Z AND species_name: Z
+ * @defines common_name: Z AND genus_name: Z AND species_name: Z AND leg_count = Z
  *
  * @constraints None
  *
