@@ -1,7 +1,7 @@
 
 /**
  *
- * @invariant
+ * @invariant finCount > 0
  *
  * @corresponds
  *
@@ -19,7 +19,7 @@ public class Fish implements IFish {
 	 * @param aCommonName - the common name of the fish, a String
 	 * @param aGenus -  the genus of the fish, a String
      * @param aSpecies -  the species of the fish , a String
-     * @param aLegCount -  the leg count of an fish, an int
+     * @param aFinCount -  the leg count of a fish, an int
 	 *
 	 * @pre aCommonName != null AND aGenus != null AND aSpecies != null AND aLegCount >= 0
 	 *
