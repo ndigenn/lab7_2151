@@ -1,9 +1,10 @@
 /**
- * @defines common_name: Z AND genus_name: Z AND species_name: Z AND leg_count = Z
+ * @defines common_name: "the common name of the animal"  AND genus_name: "the genus of animal"
+ * AND species_name: "the species of the animal" AND leg_count = "the leg count of an animal"
  *
  * @constraints None
  *
- * @initialization_ensures The common_name, genus_name, species_name, and legCount are all set
+ * @initialization_ensures The common_name, genus_name, species_name, and leg_count are all set
  */
 public interface IAnimal
 {
