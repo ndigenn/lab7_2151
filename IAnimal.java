@@ -2,7 +2,7 @@
  * @defines common_name: "the common name of the animal"  AND genus_name: "the genus of animal"
  * AND species_name: "the species of the animal" AND leg_count = "the leg count of an animal"
  *
- * @constraints None
+ * @constraints common_name != null, genus_name != null, species_name != null
  *
  * @initialization_ensures The common_name, genus_name, species_name, and leg_count are all set
  */
@@ -39,7 +39,7 @@ public interface IAnimal
      * Gets the description of an animal
 	 * @return The correctly formmated description of the animal
 	 * @pre None
-	 * @post getDescription = [COMMONNAME (GENUSNAME+""+speciesname)]
+	 * @post getDescription = common_name (genus_name+""+species_name)
      */
     public default String getDescription(){
         String properGenusFormatting = getGenus().substring(0,1).toUpperCase() + getGenus().substring(1).toLowerCase();

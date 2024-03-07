@@ -20,7 +20,7 @@ public class Mammal implements IMammal{
      * @param aSpecies -  the species of the animal , a String
      * @param aLegCount -  the leg count of an animal, an int
 	 *
-	 * @pre aCommonName != null AND aGenus != null AND aSpecies != null AND aLegCount >= 0
+	 * @pre aCommonName != null AND aGenus != null AND aSpecies != null AND aLegCount > 0
 	 *
 	 * @post commonName = aCommonName AND genus = aGenus AND species = aSpecies AND legCount = aLegCount
      */
