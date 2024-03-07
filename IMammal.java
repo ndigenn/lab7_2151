@@ -3,7 +3,7 @@
  *
  * @constraints leg_count >= 0
  *
- * @initialization_ensures The common_name, genus_name, species_name, and legCount are all set AND leg_count >= 0
+ * @initialization_ensures The common_name, genus_name, species_name, and leg_count are all set AND leg_count >= 0
  */
 public interface IMammal extends IAnimal
 {
