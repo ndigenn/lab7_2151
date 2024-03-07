@@ -1,10 +1,8 @@
 
 /**
+ * @invariant legCount must be >= 0
  *
- *
- * @invariant the legCount must not be negative
- *
- * @corresponds
+ * @corresponds common_name = commonName AND  genus_name = genusName AND species_name = species AND leg_count = legCount
  *
  */
 public class Mammal implements IMammal{
