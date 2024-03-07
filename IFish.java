@@ -6,7 +6,7 @@
  * @constraints fin_num >= 0
  *
  * @initialization_ensures The common_name, genus_name, species_name, and fin_count are all set AND fin_count >= 0
- *  */num
+ */
 public interface IFish extends IAnimal
 {
     /**

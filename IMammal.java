@@ -1,5 +1,6 @@
 /**
- * @defines common_name: Z AND genus_name: Z AND species_name: Z AND leg_count = Z
+ * @defines common_name: "The common name of the mammal" AND genus_name: "The genus of the mammal
+ * AND species_name: "the species of the mammal" AND leg_count = "The number of legs the mammal has"
  *
  * @constraints leg_count >= 0
  *
